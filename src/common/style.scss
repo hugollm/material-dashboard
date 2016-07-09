@@ -1,0 +1,60 @@
+.form {
+
+    .field {
+
+        margin-right: 20px;
+
+        input, select {
+            background-color: #fafafa;
+        }
+
+        label {
+            color: #777;
+            &::after {
+                height: 1px;
+            }
+        }
+    }
+
+    .actions {
+        margin-top: 20px;
+        button {
+            margin-right: 5px;
+        }
+    }
+}
+
+.mdl-button--primary {
+    border: 1px solid #eee;
+}
+
+.selectable-table tbody tr {
+    cursor: pointer;
+}
+
+.page-actions {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #f7f7f7;
+
+    button + button {
+        margin-left: 5px;
+    }
+
+    .mdl-button--icon:first-child {
+        margin-right: 10px;
+    }
+}
+
+.details-table {
+    td {
+        padding: 5px;
+        color: #000;
+        opacity: 0.7;
+        &:first-child {
+            font-weight: bold;
+            padding-right: 15px;
+        }
+    }
+}

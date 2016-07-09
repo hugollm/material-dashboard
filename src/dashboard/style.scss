@@ -1,0 +1,28 @@
+.dashboard {
+
+    #logout-button {
+        margin-left: 10px;
+    }
+
+    .mdl-layout__drawer {
+
+        .mdl-layout-title {
+            color: #fff;
+        }
+
+        .mdl-navigation__link {
+            cursor: pointer;
+            &:hover {
+                background-color: rgb(243, 243, 243);
+            }
+            &.selected {
+                background-color: rgb(236, 236, 236);
+            }
+        }
+
+    }
+
+    .page-content {
+        padding: 30px;
+    }
+}

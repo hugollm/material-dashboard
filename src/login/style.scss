@@ -1,0 +1,27 @@
+.login-page {
+
+    padding-top: 20vh;
+    height: 80vh;
+    background-color: #f3f3f3;
+
+    .login-card {
+
+        margin: auto;
+
+        .mdl-card__title {
+            border-bottom: 1px solid darken(#ececec, 5%);
+            h1 {
+                font-size: 1em;
+                opacity: 0.54;
+            }
+        }
+
+        .mdl-card__supporting-text {
+            padding-bottom: 0;
+        }
+
+        .mdl-button {
+            margin-right: 5px;
+        }
+    }
+}
